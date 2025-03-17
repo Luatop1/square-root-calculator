@@ -43,7 +43,7 @@ while True:
     while True:
         ask_solution = input("Нужно пошагавое решение? [y/n]")
         if ask_solution == "y" and d > 0:
-            print(f"1. Вот само уравнениу {equation}")
+            print(f"1. Вот само уравнение {equation}")
             print(f"2. Находим дискриминант D = {b}² - 4 * {a}* {c} = {d}")
             print(f"3. Находим первый корень x¹ = (-{b_modul} + √{d}) / (2* {a} ) = {x2}")
             print(f"4. Находим второй корень x² = (-{b_modul} - √{d}) / (2* {a} ) = {x1}")
